@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Game from './components/Game'
+// import React from 'react';
 
 function App() {
+  // React.cloneElement(<Card type="hearts" number="A" value="11/1" double={false} />)
+  // var udeck = document.getElementById('udeck');
+  // var hit = document.getElementById('hit');
+  // hit.addEventListener('click', function(e) {
+  //   React.cloneElement(<Card type="hearts" number="A" value="11/1" double={false} />)
+  // })
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header className="App-header" />
+      <Game />
     </div>
   );
 }
